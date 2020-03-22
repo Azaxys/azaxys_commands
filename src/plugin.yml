@@ -1,0 +1,41 @@
+name: azaxys_commands
+version: 0.1.0
+author: stecool
+main: com.github.StevenDesroches.azaxys_commands.Main
+api-version: 1.12.2
+commands:
+  passeport:
+    description: You do the passeport, something
+    usage: /passeport [player]
+  reroll:
+    description: You do the reroll, something
+    usage: /reroll [player]
+  informations:
+    description: informations
+    usage: /informations
+  vote:
+    description: vote
+    usage: /vote
+  builderpro:
+    description: devient un builderpor
+    usage: /builderpro [start,quit]
+  questeur:
+    description: devient un questeur
+    usage: /questeur [start,quit]
+  jojo:
+    description: devient un jojo
+    usage: /jojo [start,quit]
+  sponsorazaxys:
+    description: commandes lié au sponsor
+    usage: /sponsorazaxys
+permissions:
+  azaxys.commands.passeport:
+    description: Let you use the passeport command
+  azaxys.commands.builderpro:
+    description: Let you use the builderpro command
+  azaxys.commands.questeur:
+    description: Let you use the questeur command
+  azaxys.commands.jojo:
+    description: Let you use the jojo command
+  azaxys.commands.sponsor:
+    description: Let you use the sponsor command
